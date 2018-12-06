@@ -1,0 +1,8 @@
+--- 
+  - hosts: 84.39.44.237
+    tasks: 
+     - name: NTP installation
+       yum: name=ntp state=present
+
+     - name: NTP service
+       service: name=ntpd state=started enabled=yes 

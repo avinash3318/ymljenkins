@@ -1,0 +1,9 @@
+--- 
+- hosts: all
+  tasks: 
+   - name: Group Creation 
+     group:
+       name=thinknyxgrp
+       gid=5555 
+   - name: Another Group Creation
+     group: name=thinknygrp1 gid=5656
