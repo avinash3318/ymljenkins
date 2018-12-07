@@ -1,0 +1,8 @@
+---
+  - hosts: all
+    vars: 
+      service: httpd
+     
+    tasks:
+     - name: NTP OS PACKAGE INSTALLATION
+  

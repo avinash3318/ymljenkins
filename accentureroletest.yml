@@ -1,0 +1,12 @@
+---
+
+ - hosts: all
+
+
+    name: Testing role
+ 
+
+
+ # define role here
+  roles:
+  -accenture
